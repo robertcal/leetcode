@@ -15,7 +15,6 @@ class Solution:
         while queue:
             item = queue.pop(0)
             x, y = item[0], item[1]
-            seen = []
             seen.append((x, y))
 
             if image[x][y] == initNum:
